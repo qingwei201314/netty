@@ -1,0 +1,2 @@
+客户端与服务端之间采用LengthFieldBasedFrameDecoder进行断帧。
+客户端与服务端之间的报文，建议采用json格式，先进行utf-8编码，再采用3des加密后，再进行传输。
